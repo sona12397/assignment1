@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+}
+.d-block{
+	display:  block;
+}
+body{
+   
+    color: rgb(24, 24, 24)
+}
+#part1{
+    color: rgb(242, 244, 241);
+}
+/* box 2 styling */
+.p-4{
+    margin-top: 10rem;
+    font-size: 2.5rem;
+    
+}
+#part2{
+    font-size: 1rem;
+    margin-left: 8rem;
+}
+
+#b4{
+    background-image: url(bgg.jpg);
+    max-width: 100%;
+    height: auto;
+}
+/*header work*/
+
+header{
+    height: auto;
+}
+#nav-bar{
+    height: 8%;
+    
+    padding-bottom: 20px;  
+}
+#nav-bar form {
+    margin-right: 25rem;
+
+
+}
+/*main-content*/
+#main{
+    padding-left: 0;
+}
+.bg{
+    background-image: url("hbg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: 100% 100%;
+    height: 40rem;
+}
+#download{
+    background-color: #A8A89E;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.5rem;
+}
+
+.flexbox1{
+    margin-top: 6em;
+    margin-bottom: 1em;
+  
+    width: auto;
+}
+.flexbox{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+.btn-opac{
+   background-color: rgb(165, 188, 82,0.7);
+   margin-top: 10rem;
+}
+#bg-1{
+    position: relative;
+    height: 39rem;
+    padding:0px;
+  
+}
+#bg-2{
+    position: relative;
+    top: -720px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.g1{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    text-align: center;
+}
+.bor1{
+    /* background-image: url(../images/tooltip-bg.png); */
+     background-repeat: no-repeat; 
+    background-position: fixed;
+     background-size: 100% 100%;
+    padding: 2.5em;
+    background-color: white;
+    border-radius: 100%;
+    height: 5rem;
+    width: 2rem;
+}
+/* button3 */
+.bor1 p{
+    font-size: 1.5em;
+    color: greenyellow;
+    display: inline block;
+    padding-bottom: 8rem;
+    margin-bottom: 5rem;
+    text-align: center;
+
+}
+.bor1:hover{
+    background-image: url(../images/tooltip-hover.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+    padding: 2.5em;
+    width: 100%;
+    shape-outside: circle();
+
+}
+#S1{
+    border: 0px;
+}
+#S{
+    border: 1px solid black;
+}
+#ss i{
+    position: relative;
+    margin-right: 4px;
+}
+/*slider*/
+.k1{
+    background-image: url('../images/testimonial-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top:8rem;
+    padding-bottom: 9rem;
+    padding-left: 28rem;
+    padding-right: 21.4rem;
+    margin-top: 0.6rem;
+}
+.kerry1{
+    
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+blockquote{
+    font-size: 1rem!important;
+}
+footer{
+    background-color:#303030;
+    color: rgb(201, 201, 201);
+}
+@media only screen and (min-width: 360px) and (max-width:375px){
+    #ss i {
+      position: relative;
+      left: 270px;
+      top: -33px;
+      
+    }
+    #button{
+        position: relative;
+        left: 240px;
+    }
+  }
+@media only screen and (min-width:992px){
+    #navbar{
+        position: relative;
+        top: 9px;
+        right: -80px;
+    }
+}
+@media only screen and (min-width:992px){
+    #call{
+       font-family:cursive;
+       padding-top: 20px;
+       padding-bottom: 0px;
+       padding-left: 100px;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:991px){
+    #button{
+        position: relative;
+        left: 12em;
+    }
+}
+@media only screen and (min-width:320px) and (max-width:375px){
+    .g1{
+        background-image: url(../images/hbg5.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .g1 h2{
+        font-size: 3vw;
+    }
+    .g1 p{
+        font-size: 3vw;
+    }
+    .bor1{
+        background-image: url(../images/tooltip-bg.png);
+        background-repeat: no-repeat;
+        background-position: inherit;
+        background-size: 5.5vw 5.5vw;
+        padding: 0.2em;
+    }
+    .bor1 p{
+        font-size: 2.4vw;
+       
+    }
+    .bor1:hover{
+        background-image: url(../images/tooltip-hover.png);
+        background-repeat: no-repeat;
+        background-position: fixed;
+        background-size: 5.5vw 5.5vw;
+        padding: 0.2em;
+    }
+    .flexbox1{
+        margin-top: -1em;
+        margin-bottom: -1em;
+    }
+    .flexbox1 i{
+        font-size: 1.5vw;
+    }
+    #form{
+        padding: .80rem .18rem;
+        font-size: 1.5vw;
+    }
+    /*slide 1--->*/
+    .bg{
+        background-image: url('../images/hbg21.png');
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size: 100% 100%;
+    }
+    .flexbox{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 0.7em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #z1{
+        padding: 1rem 100% !important;
+        opacity: 0.8;
+    }
+    #download{
+        background-color: #A8A89E;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 0.5rem;
+    }
+    #lorem{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    #lorem1{
+        font-size: 0.3rem;
+    }
+    .k1{
+        background-image: url('../images/hbg5.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-top:2.3rem;
+        padding-bottom: 1.5rem;
+        padding-left: 7rem;
+        padding-right: 4.8rem;
+        margin-top: 0.6rem;
+    }
+   
+
+}
+@media only screen and (min-width:768px){
+    .k1{
+        padding-left:6rem;
+        padding-right:5rem;
+    }
+}
+.container3{
+    background-image: url("hbg5.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   align-items: center;
+    text-align: center;
+   width: 100%;
+   height: relative;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  .bg-success {
+    background-color: rgb(189, 225, 60)!important;
+    
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    color: rgb(117, 113, 110);
+}
